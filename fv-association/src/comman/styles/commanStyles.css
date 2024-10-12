@@ -1,0 +1,31 @@
+.socialMediaIcons:hover{
+    color:#006A4E ;
+}
+
+.Button-item{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: white; 
+    background: #1bb69b;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+
+  
+  .Button-item:hover {
+    background: linear-gradient(to right, #30b979, #1bb69b);
+    transform: translateY(-2px);
+  }
+
+  .aboutIcon{
+    color: white;
+  }
+  .aboutIcon:hover{
+    color: #006A4E;
+  }
